@@ -1,0 +1,15 @@
+[project]
+name = "hunyuanportrait"
+description = "ComfyUI-HunyuanPortrait is now available in ComfyUI, HunyuanPortrait is a diffusion-based condition control method that employs implicit representations for highly controllable and lifelike portrait animation."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["diffusers==0.29.0", "moviepy==1.0.1", "transformers", "accelerate", "omegaconf", "opencv-python-headless", "onnxruntime", "onnxruntime-gpu", "decord", "scikit-image", "scikit-video", "einops", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-HunyuanPortrait"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-HunyuanPortrait"
+Icon = ""
